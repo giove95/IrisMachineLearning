@@ -4,3 +4,4 @@ pred = predict(svmFit, newdata = irisTest)
 risultato=confusionMatrix(pred, irisTest$Species)
 risultato[["table"]]
 risultato[["overall"]]
+

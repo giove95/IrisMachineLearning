@@ -15,3 +15,4 @@ summary(res)
 #Boxplot
 bwplot(res, layout=c(2,1))
 #deciso il miglior modello si cerca la variabile più importante
+
