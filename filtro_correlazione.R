@@ -1,4 +1,4 @@
-#FILTRO COLONNE FORTEMENTE CORRELATE
+#3 - FILTRO COLONNE FORTEMENTE CORRELATE
 
 hCor = findCorrelation(dCor, cutoff=.95)
 fIris = iris[, -hCor]
